@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "592878237589",
+    "project_id": "australia-talk",
+    "storage_bucket": "australia-talk.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592878237589:android:8f5f13bd9d60ba03b4a89c",
+        "android_client_info": {
+          "package_name": "com.example.talk_ami_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD59GIhnJUB9-eYX5eA8EJc52YLLVzlS3Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

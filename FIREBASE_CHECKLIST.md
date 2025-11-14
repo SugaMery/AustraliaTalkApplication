@@ -21,7 +21,7 @@
 ### Phase 2: Android Setup (10-15 minutes)
 
 - [ ] In Firebase Console, click "Add app" → Android
-- [ ] Package name: `com.example.talk_ami_app` (check your build.gradle)
+- [ ] Package name: `com.ami.australia.talk` (check your build.gradle)
 - [ ] Download `google-services.json`
 - [ ] Place in: `android/app/google-services.json` ✓ (Already exists)
 - [ ] SHA-1 fingerprint (run: `./gradlew signingReport` in android folder)

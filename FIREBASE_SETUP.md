@@ -23,7 +23,7 @@ This document explains how to complete the Firebase integration setup for your F
 
 ### For Android:
 1. In Firebase Console, click the **Android** icon
-2. Enter your package name (usually `com.example.talk_ami_app`)
+2. Enter your package name (usually `com.ami.australia.talk`)
 3. Download `google-services.json`
 4. Place it in: `android/app/google-services.json` (already done in your project)
 5. Click "Next" and follow the setup steps

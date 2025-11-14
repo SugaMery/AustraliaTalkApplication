@@ -1,4 +1,4 @@
-package com.example.talk_ami_app
+package com.ami.australia.talk
 
 import io.flutter.embedding.android.FlutterActivity
 

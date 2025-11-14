@@ -17,7 +17,7 @@
 
 ### Android
 1. In Firebase Console: Click `+` Add app → Android
-2. Package name: `com.example.talk_ami_app`
+2. Package name: `com.ami.australia.talk`
 3. Download `google-services.json`
 4. You already have it at: `android/app/google-services.json` ✓
 

@@ -8,7 +8,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.talk_ami_app"
+    namespace = "com.ami.australia.talk"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = "27.0.12077973"
 
@@ -23,7 +23,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.example.talk_ami_app"
+        applicationId = "com.ami.australia.talk"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = 23
@@ -32,11 +32,21 @@ android {
         versionName = flutter.versionName
     }
 
+    signingConfigs {
+        create("release") {
+            keyAlias = "ami-key"
+            keyPassword = "k05&t4gNZH)n"
+            storeFile = file("C:/Users/D2/key/ami-release-key.jks")
+            storePassword = "k05&t4gNZH)n"
+        }
+    }
+
     buildTypes {
         release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig = signingConfigs.getByName("debug")
+            // Use the release signing config provided
+            signingConfig = signingConfigs.getByName("release")
+            isMinifyEnabled = false
+            isShrinkResources = false
         }
     }
 }

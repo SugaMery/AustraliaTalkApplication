@@ -1,7 +1,7 @@
 name: talk_ami_app
 description: Flutter app that loads talk.ami-intelligente.com
 publish_to: 'none'
-version: 1.0.0+1
+version: 3.0.0+6
 
 environment:
   sdk: '>=3.2.0 <4.0.0'
